@@ -6,9 +6,13 @@ namespace WarriorCharacter
 {
     class Character
     {
-        public Character(string n, string r, string cl, double hp)
+        public Character(string n, string r, string cl, double hp, Weapon w)
         {
-
+            Name = n;
+            Race = r;
+            Class = cl;
+            HP = hp;
+            WeaponName = w.Name;
         }
 
         public string Name { set; get; }
