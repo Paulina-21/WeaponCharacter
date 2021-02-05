@@ -12,5 +12,10 @@ namespace WarriorCharacter
             D=new Dictionary<string, Character>();
         }
 
+        public Character Search(string name)
+        {
+            if (D.ContainsKey(name)) return D[name];
+            else return null;
+        }
     }
 }
