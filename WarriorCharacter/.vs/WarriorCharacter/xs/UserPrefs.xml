@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{2152BFEC-B70C-482B-AEF2-56D373F78D0B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Weapon.cs">
+    <Files>
+      <File FileName="Program.cs" Line="9" Column="19" />
+      <File FileName="Weapon.cs" Line="7" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WarriorCharacter" expanded="True">
+            <Node name="WarriorCharacter" expanded="True">
+              <Node name="Weapon.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WarriorCharacter PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
