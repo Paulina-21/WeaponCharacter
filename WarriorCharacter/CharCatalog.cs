@@ -17,5 +17,11 @@ namespace WarriorCharacter
             if (D.ContainsKey(name)) return D[name];
             else return null;
         }
+
+        public void UpdateChar(Character character)
+        {
+            D[character.Name] = character;
+        }
+
     }
 }
