@@ -20,5 +20,11 @@ namespace WarriorCharacter
         {
             D.Remove(character.Name);
         }
+
+        public void UpdateChar(Character character)
+        {
+            D[character.Name] = character;
+        }
+
     }
 }
