@@ -6,7 +6,9 @@ namespace WarriorCharacter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("This is our Game details");
+            Weapon sword = new Weapon("Maaan", "Sword", 2.3, 0, 5.4, 0, null) ;
+            Character character1 = new Character("Cata", "human", "Atack",50,  sword);
+
         }
     }
 }

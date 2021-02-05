@@ -11,7 +11,7 @@ namespace WarriorCharacter
         private int sockets;
         private string handedness;
 
-        public Weapon(string name, string type, double rarity, int level, double damage, int sockets, string handedness)
+        public Weapon(string name, string type, double rarity, int level = 0, double damage=0, int sockets=0, string handedness = null)
         {
             this.name = name;
             this.type = type;
