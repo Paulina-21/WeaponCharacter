@@ -11,6 +11,9 @@ namespace WarriorCharacter
         {
             D=new Dictionary<string, Character>();
         }
-
+        public void AddChar(Character character)
+        {
+            D.Add(character.Name, character);
+        }
     }
 }
