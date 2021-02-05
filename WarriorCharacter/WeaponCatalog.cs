@@ -37,6 +37,14 @@ namespace WarriorCharacter
             Console.WriteLine("This name doesnt exist");
         }
 
+        public void Print()
+        {
+            foreach (var item in D.Values)
+            {
+                Console.WriteLine(item);
+            }
+        }
+
         public Weapon Search(string name)
         {
             if (D.ContainsKey(name)) return D[name];

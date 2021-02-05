@@ -21,5 +21,11 @@ namespace WarriorCharacter
         public double HP { set; get; }
         public string WeaponName { set; get; }
 
+        public override string ToString()
+        {
+            return $"{Name} {Race} {Class} {HP} {WeaponName}";
+        }
+
+
     }
 }

@@ -29,5 +29,13 @@ namespace WarriorCharacter
         public double Damage { get => damage; set => damage = value; }
         public int Sockets { get => sockets; set => sockets = value; }
         public string Handedness { get => handedness; set => handedness = value; }
+
+
+
+        public override string ToString()
+        {
+            return $"{Name} {Type} {Rarity} {Level} {Damage} {Sockets} {Handedness}";
+        }
+
     }
 }
