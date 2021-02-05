@@ -15,5 +15,10 @@ namespace WarriorCharacter
         {
             D.Add(character.Name, character);
         }
+
+        public void RemoveChar(Character character)
+        {
+            D.Remove(character.Name);
+        }
     }
 }
